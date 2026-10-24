@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const whatsappUrl = `https://wa.me/5491133909869?text=${encodedMessage}`;
             
             // Open WhatsApp
-            window.open(whatsappUrl, '_blank');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
             
             // Reset form
             contactForm.reset();
